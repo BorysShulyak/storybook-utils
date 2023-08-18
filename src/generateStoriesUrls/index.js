@@ -3,8 +3,7 @@ const generateStoryUrl = (storybookUrl, storyPathComponent, storyPathVariant) =>
   return `${storybookUrl}/index.html?path=/docs/${storyPathComponent}--${storyPathVariant}`;
 };
 
-const generateStoryPathComponent = (storyTitle) =>
-  storyTitle?.split('/').join('-').toLowerCase();
+const generateStoryPathComponent = (storyTitle) => storyTitle?.split('/').join('-').toLowerCase();
 
 const generateStoryPathVariant = (storyVariant) =>
   storyVariant
@@ -26,4 +25,4 @@ const generateStoriesUrls = (storybookUrl, storybookStructure) => {
   }, []);
 };
 
-export default generateStoriesUrls
+export default generateStoriesUrls;
