@@ -1,4 +1,4 @@
-# Contributing to Storybook Visual Regression
+# Contributing to Strapi Plugin Field Formula
 Thank you for taking an interest in contributing! We appreciate you! 🫶🏽
 
 Below are the guidelines on how to help in the best possible way.

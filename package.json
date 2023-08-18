@@ -2,6 +2,8 @@
   "name": "storybook-visual-regression",
   "version": "0.0.0",
   "description": "Storybook Visual Regression",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
     "prepare": "husky install",
     "commit": "commit",
@@ -10,27 +12,28 @@
     "test": "jest --testPathPattern='\\/__tests__\\/.*\\.(?:test|spec)\\.js$' --ci  2>&1"
   },
   "dependencies": {
+    "@borisshulyak/node-utils": "1.0.1"
   },
   "devDependencies": {
+    "@borisshulyak/eslint-config-base": "1.0.1",
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
     "@commitlint/prompt-cli": "17.6.7",
-    "eslint": "8.46.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-import": "2.28.0",
-    "eslint-plugin-jest": "27.2.3",
+    "eslint": "8.34.0",
+    "prettier": "2.8.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-jest": "27.2.1",
     "eslint-plugin-jest-formatting": "3.1.0",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-prettier": "5.0.0",
-    "eslint-plugin-react": "7.33.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-simple-import-sort": "10.0.0",
-    "eslint-plugin-testing-library": "5.11.1",
     "husky": "8.0.3",
     "jest": "29.6.2",
     "jest-junit": "16.0.0",
-    "prettier": "3.0.1"
+    "@babel/preset-env": "7.18.10",
+    "babel-jest": "29.5.0",
+    "@babel/core": "7.21.4"
   },
   "peerDependencies": {
   },
